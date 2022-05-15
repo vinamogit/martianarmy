@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/9.1.0/stellar-sdk.min.js"
+		integrity="sha512-29ReeDE/g7IJWIy2da3122XVUvVdNDNoXGsmlcmn+CDODrPDT6DOeMQLZcsc3Eyh8RNwZ/XXrMfESF49Ck8usg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js" integrity="sha256-ErZ09KkZnzjpqcane4SCyyHsKAXMvID9/xwbl/Aq1pc=" crossorigin="anonymous"></script>
+    <script src='main.js' type=""module" ></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="main" >
+        <h1>Martian Army benefits</h1>
+        <h2>Liquidity Pool</h2>
+        <div id="lp"></div>
+        <!-- <p>
+            500000 DRIFT each week plus ISX equivalent (<span id='isxweekly'></span> at today's pool balance)
+        </p> -->
+        <div id="input" style="margin: 1em;">
+
+            <input type="text" id="publicKey" style="width: 80%" placeholder="Public Key G..." /><button id="submitPubKey" style="width: 15%">Check</button><br />
+        </div>
+
+        <canvas id="myChart" width="100%" height="30%" ></canvas>
+        <div id="list"></div>
+    </div>
+    
+</body>
+</html>
